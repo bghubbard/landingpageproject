@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header, .titlecard {
+    background-color: #1f2937;
+}
