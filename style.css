@@ -37,19 +37,21 @@ button {
 #titlecardimage {
     height: auto;
     width: auto;
-    justify-self: flex-end;
 
 }
 .titlecard {
     justify-content: center;
     padding: 0px 48px 48px 48px;
     gap: 28px;
-    flex-shrink: 1;
+
 }
 h1 {
     color: #F9FAF8;
     font-size: 48px;
     margin:0px;
+}
+h2 {
+    font-size: 36px;
 }
 .titletext {
     color: #EFE7EB;
@@ -94,4 +96,20 @@ h2 {
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+.dailyquote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 0px 400px;
+}
+.quotesignature {
+    font-weight: bold;
+    align-self: flex-end;
+}
+.quote {
+    font-style: italic;
 }
