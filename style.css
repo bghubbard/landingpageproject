@@ -4,4 +4,33 @@ body {
 }
 .header, .titlecard {
     background-color: #1f2937;
+    display: flex;
+}
+.headerlogo {
+    width: 80px;
+    height:auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header {
+    justify-content: space-between;
+}
+.titlecardbox {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    align-self: flex-start;
+}
+#titlecardimage {
+    height: 200px;
+    width: auto;
+
+}
+.titlecard {
+    justify-content: center;
 }
