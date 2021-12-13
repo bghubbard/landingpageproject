@@ -8,7 +8,7 @@ body {
     margin: auto;
     margin: 0 10vw;
 }
-.titlecard {
+.titlecard, .footer {
     background-color: #1f2937;
     display: flex;
 }
@@ -33,6 +33,9 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
+    margin:0px;
+    padding: 5px 15px;
+    border-color: #FFFFFF;
 }
 #titlecardimage {
     height: auto;
@@ -112,4 +115,37 @@ h2 {
 }
 .quote {
     font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: #FFFFFF;
+}
+.signupcontainer {
+    height: 100px;
+    width: 800px;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 25px;
+    padding: 20px 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.signupleft {
+    color: #e5e7eb;
+}
+.signuptitle {
+    font-weight: bold;
+}
+.footer {
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
 }
