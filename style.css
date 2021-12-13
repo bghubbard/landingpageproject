@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin: 0 20vw;
+    margin: 0 10vw;
 }
 .titlecard {
     background-color: #1f2937;
@@ -21,9 +21,11 @@ body {
 .titlecardbox {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 350px;
-    width: 300px;
+    width: 400px;
+    gap: 60px;
+
 }
 
 button {
@@ -49,7 +51,7 @@ h1 {
     font-size: 48px;
     margin:0px;
 }
-p {
+.titletext {
     color: #EFE7EB;
 }
 .links {
@@ -73,4 +75,23 @@ a {
 }
 h2 {
     text-align: center;
+}
+
+.studyimage {
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+    border: 5px solid #3882F6;
+}
+.study {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+
+}
+.featuredstudies {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
