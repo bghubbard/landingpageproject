@@ -1,8 +1,14 @@
+html {
+    background-color: black;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin: 0 20vw;
 }
-.header, .titlecard {
+.titlecard {
     background-color: #1f2937;
     display: flex;
 }
@@ -12,25 +18,59 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
-.header {
-    justify-content: space-between;
-}
 .titlecardbox {
-    height: 200px;
-    width: 300px;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+    height: 350px;
+    width: 300px;
 }
 
 button {
     align-self: flex-start;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
 }
 #titlecardimage {
-    height: 200px;
+    height: auto;
     width: auto;
+    justify-self: flex-end;
 
 }
 .titlecard {
     justify-content: center;
+    padding: 0px 48px 48px 48px;
+    gap: 28px;
+    flex-shrink: 1;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin:0px;
+}
+p {
+    color: #EFE7EB;
+}
+.links {
+    font-size: 18px;
+    color: #EFE7EB;
+    display: flex;
+    align-self: flex-end;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: #EFE7EB;
+}
+.static {
+    flex-shrink: 0;
+}
+.imagecard {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
 }
